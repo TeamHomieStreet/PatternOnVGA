@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Aug 31 11:42:57 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "blue" LOCATE = SITE "G15" LEVEL 1;
+COMP "video_on" LOCATE = SITE "F9" LEVEL 1;
+COMP "green" LOCATE = SITE "H15" LEVEL 1;
+COMP "red" LOCATE = SITE "H14" LEVEL 1;
+COMP "hsync" LOCATE = SITE "F15" LEVEL 1;
+COMP "vsync" LOCATE = SITE "F14" LEVEL 1;
+COMP "reset" LOCATE = SITE "K17" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

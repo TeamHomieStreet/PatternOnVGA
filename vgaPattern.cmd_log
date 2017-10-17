@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vgaPattern.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vgaPattern.syr" 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vgaPattern.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vgaPattern.syr" 

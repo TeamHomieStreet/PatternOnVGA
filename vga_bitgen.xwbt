@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.ncd
+OUTFILE=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern
+LICENSE=WebPack
+USER_INFO=211152735_0_0_933

@@ -1,0 +1,56 @@
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga.ngc" vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -t 1 vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf vgaPattern.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/ashu/sem5/MicroElectronicsLab/BKK/vgaPattern/vga.xst" -ofn "/home/ashu/sem5/MicroElectronicsLab/BKK/vgaPattern/vga.syr" 

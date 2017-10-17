@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/impact.xsl
+OUTFILE=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern
+LICENSE=iMPACT
+USER_INFO=iMPACT

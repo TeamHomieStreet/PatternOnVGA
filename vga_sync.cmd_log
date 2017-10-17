@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga_sync.xst" -ofn "/home/ashu/sem4/Digital_lab/EC-252 Xilinx Projects/vgaPattern/vga_sync.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vgaPattern.ucf -p xc3s500e-fg320-5 "vga_sync.ngc" vga_sync.ngd  
